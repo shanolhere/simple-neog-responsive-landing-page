@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Landing Page</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <!-- Web page CSS -->
+    <link rel="stylesheet" href="src/styles.css" />
+    <script src="src/index.js"></script>
+
+    <!-- Simple lightbox CSS -->
+    <!-- <link rel="stylesheet" href="assets/css/simple-lightbox.min.css" /> -->
+
+    <!-- Favicons -->
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" /> -->
+  </head>
+
+  <body>
+    <nav>
+      <div class="logo">
+        <a href="#" class="logo" style="text-decoration:none; color:black;">
+        <h1>neo<span>G</span></h1></a>
+      </div>
+
+      <div class="nav-ul">
+        <ul>
+          <!-- <li><a href="#">About</a></li> -->
+          <li><a href="#course" class="navlink">Why this course?</a></li>
+          <li><a href="#mentor" class="navlink">About your mentor</a></li>
+          <li><a href="#testimonials" class="navlink">Testimonials</a></li>
+          <li class="join"><a href="#join" class="navlink">Join our Community</a></li>
+        </ul>
+      </div>
+
+      <!-- Dark/light theme switcher -->
+      <div class="theme-switch">
+        <input type="checkbox" class="checkbox" id="checkbox" />
+        <label for="checkbox" class="label">
+          <ion-icon name="sunny" class="sun"></ion-icon>
+          <ion-icon name="moon" class="moon"></ion-icon>
+          <div class="switcher"></div>
+        </label>
+      </div>
+
+      <!-- Bars -->
+      <div class="hamburger" id="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+
+    <!-- section-1 -->
+    <section class="hero" id="hero">
+      <div class="container">
+        <div class="heading">
+          <h1>Experience the joy of creating</h1>
+          <p>
+            Join our FullStack web program where you will learn by creating
+            projects.
+          </p>
+          <div class="btn">
+            <a href="#">Get started</a>
+          </div>
+        </div>
+        <div class="yt-video">
+            <div class="i-frame">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Ezk2AwqgS9Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- section -2 -->
+    <section class="course" id="course">
+        <div class="sub-container">
+          <div class="head"><h2 class="sub-heading">Why this course?</h2></div>
+          <div class="features">
+            <ul class="feature-list">
+              <li class="feature-link">
+                  <ion-icon name="cube" class="icon"></ion-icon>
+                  <h3>Beginner-Friendly</h3>
+                  <p>You have <span>never written a single line of code</span>. No problem, we got you covered. Start with <span>levelZero</span>. levelZero of neoG Camp is absolutely beginner-friendly.</p>
+              </li>
+
+              <li class="feature-link">
+                  <ion-icon name="laptop" class="icon"></ion-icon>
+                  <h3>A-Z of Fullstack Web Dev</h3>
+                  <p>After this bootcamp, you’ll be able to create and <span>host an app end to end</span>. No problem, we got you covered. This structured camp will take you from a <span>beginner to an advanced level </span>programmer.</p>
+              </li>
+
+              <li class="feature-link">
+                  <ion-icon name="flag" class="icon"></ion-icon>
+                  <h3>Project-Based Learning</h3>
+                  <p>You will <span>learn everything through live project</span>. You will create more than 20 projects during this journey. Projects which are fun to share with your friends and impressive to your future employer as well.</p>
+              </li>
+
+              <li class="feature-link">
+                  <ion-icon name="contacts" class="icon"></ion-icon>
+                  <h3>Dedicated Peer Groups</h3>
+                  <p>You will have a <span>closed and dedicated classroom</span>experience. You will have this extraordinary alumni group as your biggest asset for career building. Make friends, network, find your future colleagues, cofounders, and referrals here.</p>
+              </li>
+
+              <li class="feature-link">
+                  <ion-icon name="logo-youtube" class="icon"></ion-icon>
+                  <h3>100+ Hours of Live Teaching</h3>
+                  <p><span>No boring recorded videos</span>to learn alone. You will learn to live with your peers, ask doubts and discuss with your mentor and others. You will also have your team to discuss lectures and network.</p>
+              </li>
+
+              <li class="feature-link">
+                  <ion-icon name="globe" class="icon"></ion-icon>
+                  <h3>Interview Readiness</h3>
+                  <p>You become <span>industry-ready with us</span>. We have a few sessions reserved for interview preparation. Everything taught to you is industry-relevant and job-oriented too.</p>
+              </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- section  mentor -->
+    <section class="mentor" id="mentor">
+      <div class="sub-container">
+          <div class="head"><h2 class="sub-heading">About your mentor</h2></div>
+
+          <div class="mentor-info">
+            <div class="mentor-img">
+              <img src="src/tanay.jpg" alt="tanay's img">
+            </div>
+            <div class="mentor-desc">
+              <h2>Tanay Pratap</h2>
+              <h4>Founder of NeoG, Ex-SDE at Microsoft</h4>
+              <p>A Senior Software Engineer at Microsoft by the day and a teacher to thousands of students by the night. Has been teaching and mentoring, via different channels all over India since 2014. A staunch promoter of job-oriented programming and action-based learning. Spends his time on the internet with the sole purpose of helping land better jobs.
+                  If you want to know more about this Batman, check below.</p>
+               <div class="sociallinks">
+                 <ul>
+                   <li><a href=""><ion-icon name="logo-linkedin" class="icon"></ion-icon></a></li>
+                   <li><a href=""><ion-icon name="logo-instagram" class="icon"></ion-icon></a></li>
+                   <li><a href=""><ion-icon name="logo-twitter" class="icon"></ion-icon></a></li>
+                   <li><a href=""><ion-icon name="logo-github" class="icon"></ion-icon></a></li>
+                 </ul>
+               </div> 
+            </div>
+
+          </div>
+      </div>
+    </section>
+
+    <!-- testimonials section -->
+
+    <section class="testimonials" id="testimonials">
+      <div class="sub-container">
+          <div class="head"><h2 class="sub-heading">Testimonials</h2></div>
+          <div class="slideshow-container">
+
+            <!-- testi1 -->
+            <div class="testimonial">
+              <div class="testimonial-img">
+                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZmlsZSUyMHBpY3R1cmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="person1 img">
+              </div>
+              <div class="testimonial-info">
+                <blockquote>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto sapiente amet quibusdam ipsam error tempora deleniti enim, sunt reiciendis, dolor odio quos et facilis aliquid voluptates cupiditate, doloribus rem commodi."</blockquote>
+                <h3 class="name"> -- Helly shah, Junior FE developer at GeekyAnts</h4>
+              </div>
+            </div>
+
+            <!-- testi2 -->
+
+            <div class="testimonial">
+                <div class="testimonial-img">
+                  <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cHJvZmlsZSUyMHBpY3R1cmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="person1 img">
+                </div>
+                <div class="testimonial-info">
+                  <blockquote>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto sapiente amet quibusdam ipsam error tempora deleniti enim, sunt reiciendis, dolor odio quos et facilis aliquid voluptates cupiditate, doloribus rem commodi."</blockquote>
+                  <h3 class="name"> -- Jaden, Senior BE developer at HackerRank</h4>
+                </div>
+              </div>
+
+              <!-- testi3 -->
+
+            <div class="testimonial">
+                <div class="testimonial-img">
+                  <img src="https://images.unsplash.com/photo-1619895862022-09114b41f16f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cHJvZmlsZSUyMHBpY3R1cmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="person1 img">
+                </div>
+                <div class="testimonial-info">
+                  <blockquote>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto sapiente amet quibusdam ipsam error tempora deleniti enim, sunt reiciendis, dolor odio quos et facilis aliquid voluptates cupiditate, doloribus rem commodi."</blockquote>
+                  <h3 class="name"> -- Rihannah, FullStack Web Developer at Trello.com</h4>
+                </div>
+              </div>
+ 
+            
+          </div>
+
+          
+      </div>
+    </section>
+
+    <footer class="join" id="join">
+      <div class="pre-container">
+      <h3> Join our developer community</h3>
+      <button class="discord">
+          <a>
+          <p>welcome to Discord</p></a>
+      </button>
+      <div class="footerlinks">
+          <ul>
+            <li><a href=""><ion-icon name="logo-linkedin" class="icon"></ion-icon></a></li>
+            <li><a href=""><ion-icon name="logo-instagram" class="icon"></ion-icon></a></li>
+            <li><a href=""><ion-icon name="logo-twitter" class="icon"></ion-icon></a></li>
+            <li><a href=""><ion-icon name="logo-github" class="icon"></ion-icon></a></li>
+          </ul>
+      </div>
+      
+      <div class="otherlinks">
+        <ul>
+        <li><a href="">Terms</a></li>
+        <li><a href="">Privacy Policy</a></li>
+        <li><a href="">Refund Policy</a></li>
+        <li><a href="">Community Guidelines</a></li>
+        </ul>
+      </div>
+      </div>
+
+      <div class="footersection">
+        <p>© neoG.camp. All rights reserved</p>
+        <p>Coded with ❤ by Sabiya </p>
+      </div>
+   
+
+
+
+  </footer>
+    
+    <script src="src/index.js"></script>
+  </body>
+</html>
